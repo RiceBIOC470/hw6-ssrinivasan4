@@ -129,11 +129,6 @@ plot(1:9, r_adj, 'LineWidth', 1, 'DisplayName', 'adj R^2');
 hold off;
 legend('show');
 
-%the adjusted r square value is nearly the same as the r square value, as
-%with more values, we would expect a better fit and thus r square values
-%that are more robust.
-
-
 % Problem 2. Basic statistics. 
 % Part 1. Consider two different distributions - Gaussian numbers with a mean of
 % 0 and variance 1 and Gaussian numbers with a mean of 1 and variance 1.
@@ -220,5 +215,4 @@ legend('show');
 
 %as you can see, the p-values vary in a random fashion with increasing
 %variance. Variance values that were under 1, demonstrate a linearly
-%decreasing pvalue, which beyond that level of variance appears more
-%random.
+%decreasing pvalue, which beyond that el
